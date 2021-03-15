@@ -84,10 +84,12 @@ const pg = new PgsqlConnector(app, {
     }
   );
 
-  // To check rows in the database uncomment
+  // Uncomment this quey to check the database rows in the console
+
   // const { rows } = await pg.query(`SELECT * FROM tweets `);
   // console.log(JSON.parse(rows));
 
+  // If you wish to check the database rows in the browser, go to http://localhost:8000/pg-tweets
   httpConnector.on(
     {
       method: "GET",
