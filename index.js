@@ -1,6 +1,6 @@
 require("dotenv").config();
 const { Reshuffle, HttpConnector } = require("reshuffle");
-const { TwitterV2Connector } = require("../reshuffle-twitter-connector/");
+const { TwitterV2Connector } = require("reshuffle-twitter-connector");
 const { PgsqlConnector } = require("reshuffle-pgsql-connector");
 const sql = require("sql");
 
