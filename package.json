@@ -16,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/alanblee/reshuffle-twitter-stream-example/issues"
   },
-  "homepage": "https://github.com/alanblee/reshuffle-twitter-stream-example#readme"
+  "homepage": "https://github.com/alanblee/reshuffle-twitter-stream-example#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "reshuffle": "^1.0.8",
+    "reshuffle-pgsql-connector": "^0.0.2",
+    "reshuffle-twitter-connector": "^0.0.2",
+    "sql": "^0.78.0"
+  }
 }
